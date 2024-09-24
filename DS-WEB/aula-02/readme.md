@@ -1,1 +1,0 @@
-Aula 2- desenvolvimento web - aprendemos sobre tags de textos, mudança do Favicon, Hyperlink e tabela.
