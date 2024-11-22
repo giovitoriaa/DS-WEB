@@ -1,0 +1,1 @@
+Aula-09: Aprendemos sobre os elementos animados em html: scale, rotate, translate, transition, border, opacity, gradiente, @Keyframes + animations;
