@@ -1,0 +1,19 @@
+@keyframes nome-da-animacao {
+    0% {
+    propriedade: valor-inicial;
+    }
+    100% {
+    propriedade: valor-final;
+    
+    
+    }
+    }
+    
+    @keyframes mudarCor {
+    0% {
+    background-color: red;
+    }
+    100% {
+    background-color: blue;
+    }
+    }
