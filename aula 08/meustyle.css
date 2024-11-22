@@ -1,0 +1,77 @@
+div { 
+    
+    
+    background-color: rgb(141, 243, 214); 
+    width: 600px;
+    border: 2px solid rgb(35, 19, 158);
+    text-align: center;
+   
+
+  }
+  
+h1{
+      color: rgb(22, 7, 91);
+  }
+  
+  
+nav{
+        height: 1500px;
+        width: 300px;
+        margin: auto;
+
+      display: inline-block;
+      width: 200px;
+      background-color: rgb(184, 231, 252);
+      
+  }
+  
+a{
+      display: block;
+      text-decoration: none; /*tirar o traço de baixo do link*/
+  }
+  
+body {
+    background-size: cover; /*Colocar a imagem na tela inteira*/
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*deixar o fundo na tela inteira*/
+    
+}
+
+
+
+
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.menu-top{
+    width: 100%;
+    padding: 15px;
+    padding-left: 200px;
+    background-color: rgb(141, 243, 214);
+    position: sticky; /*fixar*/
+    top: 0;
+    display: flex; /*um do lado do outro*/
+}
+
+
+.container{
+    height: 10px;
+    width: 250px;
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px solid black;
+    background-size: cover; /* imagem se adequar ao tamanho*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centro{
+    
+    margin-left: 450px;
+}

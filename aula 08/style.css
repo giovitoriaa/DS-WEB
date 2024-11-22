@@ -1,0 +1,20 @@
+
+div{
+    background-color: rgb(167, 246, 220);
+    width: 400px;
+    border: 1px solid bisque;
+    text-align: center;
+}
+h1{
+    color: rgb(37, 5, 93);
+}
+nav{
+    display: inline-block;
+    width: 100px;
+    background-color: bisque;
+}
+a{
+    display: block;
+    text-decoration: dotted;
+}
+
