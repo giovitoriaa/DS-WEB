@@ -1,0 +1,59 @@
+label, input, select, textarea{
+    display: block; /* colocar todos os acimas em outra linha*/ 
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+form{
+    width: 550px;
+    margin: auto;
+    background: rgb(3, 240, 177);
+    padding: 40px;
+    border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+
+
+label{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.enlinha{
+    display: inline;
+    width: 10%;
+}
+
+
+.medidas{
+    display: inline;
+    width:35% ;
+}
+
+input[type="checkbox"], input [type="radio"] {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+input, select, textarea{
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+
+input:focus, select:focus, textarea:focus{
+    outline: none;
+    border: solid 1px;
+}
+
+#enviar{
+    width: 100%;
+    border: 2px solid #ffb300;
+
+}

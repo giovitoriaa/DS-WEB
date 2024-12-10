@@ -1,0 +1,13 @@
+floricultura
+
+CREATE DATABASE floricultura
+
+CREATE TABLE usuarios(id int PRIMARY KEY, user varchar(100) , email varchar(100) , senha varchar(20));
+
+INSERT INTO usuarios(id, user, email, senha) VALUES(1,"Giovanna","giovanna@giovanna.com", 123);
+
+
+CREATE TABLE produtos(id int PRIMARY KEY, nome varchar(100) , descricao varchar(100) , preco decimal(3,2));
+
+INSERT INTO produtos(id, nome, descricao, preco) VALUES(1,"Giovanna","margarida em vaso de ceramica", "2.00");
+
