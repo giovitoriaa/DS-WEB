@@ -115,24 +115,40 @@ class contabancaria {
     public $titular;
 
     public function exibirsaldo(){
-        return "o saldo é R$" .$this -> saldo;
+        return " o saldo é R$".$this -> saldo;
     }
-    public function depositar(){
+    public function depositar($deposito){
+        $this -> saldo +=  $deposito;     
+        return " esse é o novo deposito" .$this -> saldo;
 
     }
-    public function sacar(){
+    public function sacar($saque){
+        $this -> saldo +=  $saque;     
+        return " esse é o novo saque " .$this -> saldo;
 
     }
-    public function exibir (){
 
-    }
 }
 
-$contagiovanna -> new contabancaria();
+$contagiovanna = new contabancaria();
 $contagiovanna -> saldo = 30000;
 $contagiovanna -> numerodaConta = 1762460;
-$contagiovanna -> titular = "giovanna vitoria";
+$contagiovanna -> titular = " giovanna vitoria";
 
-echo $contagiovanna -> exibirsaldo()
+echo $contagiovanna -> exibirsaldo();
+echo " titular da conta:".$contagiovanna -> titular;
+echo "<br>";
+echo $contagiovanna -> sacar (20);
+
+$contaAna = new contabancaria();
+$contaAna -> saldo =20.0;
+$contaAna -> numerodaConta = 123456789;
+$contaAna -> titular = "Ana";
+
+$contaMarcia = new contabancaria();
+$contaMarcia -> saldo = 100.000;
+$contaMarcia -> numerodaConta = 678405694;
+$contaMarcia -> titular = "Marcia";
+
 
 ?>

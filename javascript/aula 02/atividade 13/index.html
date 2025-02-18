@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+
+initial-scale=1.0">
+<title>Exercicio 13</title>
+<h1>mudança de cor e tamanho ao passar o mause</h1>
+<style>
+div#area{
+background: blue;
+color: red;
+width: 300px;
+height: 300px;
+line-height: 300px;
+text-align: center;
+}
+</style>
+
+</head>
+<body>
+
+<div id="area"></div>
+<script>
+var a = window.document.getElementById('area');
+a.addEventListener('mouseenter', entrar);
+a.addEventListener('mouseout', sair);
+
+function entrar(){
+area.style.background = 'red'
+area.style.width = '600px' 
+}
+function sair(){
+a.style.background = 'blue'
+area.style.width = '300px' 
+}
+</script>
+</body>
+</html>
