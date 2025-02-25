@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 15</title>
+</head>
+<body>
+
+    <h1>Contador de Cliques</h1>
+    <button id="meuBotao">Clique aqui!</button>
+    <p>Contagem de cliques: <span id="contagem">0</span></p>
+
+    <script>
+    
+        const botao = document.getElementById('meuBotao');
+        const exibicaoContagem = document.getElementById('contagem');
+
+        
+        let contador = 0;
+
+       
+        botao.addEventListener('click', () => {
+            contador++;
+            exibicaoContagem.textContent = contador;
+        });
+    </script>
+
+</body>
+</html>
