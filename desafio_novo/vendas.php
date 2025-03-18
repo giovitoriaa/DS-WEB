@@ -1,4 +1,10 @@
-<!DOCTYPE html> 
+<?php
+    session_start();
+
+    ?>
+    
+    
+    <!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +14,17 @@
 </head>
 <body>
 
+
+<div class="menu">
+<ul>
+       
+        <li><a href="index.php" class="meumenu" title="Home">Home</a></li>
+        <li><a href="cliente.php" class="meumenu" title="Clients">Clientes </a></li>
+        <li><a href="produto.php" class="meumenu" title="Products">Produtos </a></li>
+        <li><a href="vendas.php" class="meumenu  " title="Sales">Vendas </a></li>
+
+    </ul>
+</div>
 
 
 
