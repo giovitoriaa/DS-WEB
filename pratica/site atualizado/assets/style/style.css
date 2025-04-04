@@ -1,0 +1,188 @@
+/* Estilizando a tabela de carrinho */
+
+
+#tabelaCarrinho {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tabelaCarrinho td, #customers th {
+  text-align: center;
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+#tabelaCarrinho tr:nth-child(even){background-color: #064e72;}
+
+#tabelaCarrinho tr:hover {background-color: #064e72;}
+
+#tabelaCarrinho th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;;
+  text-align: center;
+  background-color: #064e72;;
+  color: #ffffff;;
+}
+body {
+  background-color: #005e8d;
+}
+
+
+/* Código CSS do Menu Horizontal*/
+ul {
+  padding-inline-start: 0em;
+  width: 100%;
+  float: left;
+  text-align: center;
+ 
+}
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  list-style: none;
+}
+li .meumenu {
+ font-family: 'open_sansbold';
+ font-size: 1.6em;
+ text-decoration: none;
+ color: #ffffff;
+ border: 0 1px 0 0 #ffffff;
+ border-bottom: 4px solid transparent;
+ transition: border-bottom .3s linear;
+}
+li .meumenu:hover {
+  border-bottom: 4px solid #b5e4fc;
+}
+
+li .meumenu-active {
+  border-bottom: 4px solid #bbe8ff;
+}
+
+.css{
+  background-color: #56add8;
+  height: 1000px;
+  width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+
+}
+
+.formularioCliente{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px 30px 30px;
+  border-radius: 8px;
+  background: #025883;
+  box-shadow: 0 0 10px #93d2f1;
+  width: 550px;
+}
+.alteracao {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #025883;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 20px;
+  color:#ffffff;
+  height: 60px;
+}
+
+/*Código css da pagina*/
+.container {
+  margin: 0 auto;
+  width: 600px;
+  background-color: #025883;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 20px;
+  color:#ffffff;
+  height: 60px;
+ 
+  
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px 30px 30px;
+  border-radius: 8px;
+  background: #025883;
+  box-shadow: 0 0 10px #93d2f1;
+}
+form{
+  width: 100%;
+
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px 0px 8px 0px;
+  margin-top: 5px;
+  border: 1px solid #93d2f1;
+  border-radius: 4px;
+}
+input[type=submit] {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #93d2f1;
+  color:#025883;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input:hover[type=submit] {
+  background-color: #93d2f1;
+}
+
+.erro-input{
+  color: red;
+  font-size: 15px;
+}
+
+/*Definindo o estilo da tebela de dados*/
+
+#clientes {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+#clientes td, #clientes th {
+  text-align: center;/*deixar no centro*/
+border: 1px solid #000000;
+padding: 8px;
+}
+
+#clientes tr:nth-child(even){
+  background-color: #025883;
+}
+
+#clientes tr:hover {
+  background-color: #c6ecff;
+}
+
+#clientes th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+}
+
+
+/*Deixar os icones preto*/
+#clientes a {
+  text-decoration: none;
+  color: black;
+}
